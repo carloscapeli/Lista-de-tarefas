@@ -16,14 +16,23 @@
             "outputPath": "dist/lista-de-tarefas",
             "index": "src/index.html",
             "main": "src/main.ts",
+<<<<<<< HEAD
             "polyfills": "src/polyfills.ts",
+=======
+            "polyfills": [
+              "zone.js"
+            ],
+>>>>>>> 03d3c6cebaaaebc1e5d17ea01bb0a63e0349c599
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@po-ui/style/css/po-theme-default.min.css",
+=======
+>>>>>>> 03d3c6cebaaaebc1e5d17ea01bb0a63e0349c599
               "src/styles.css"
             ],
             "scripts": []
@@ -42,12 +51,15 @@
                   "maximumError": "4kb"
                 }
               ],
+<<<<<<< HEAD
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+=======
+>>>>>>> 03d3c6cebaaaebc1e5d17ea01bb0a63e0349c599
               "outputHashing": "all"
             },
             "development": {
@@ -82,16 +94,27 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+<<<<<<< HEAD
             "main": "src/test.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+=======
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "tsconfig.spec.json",
+>>>>>>> 03d3c6cebaaaebc1e5d17ea01bb0a63e0349c599
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/@po-ui/style/css/po-theme-default.min.css",
+=======
+>>>>>>> 03d3c6cebaaaebc1e5d17ea01bb0a63e0349c599
               "src/styles.css"
             ],
             "scripts": []
@@ -100,4 +123,8 @@
       }
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 03d3c6cebaaaebc1e5d17ea01bb0a63e0349c599

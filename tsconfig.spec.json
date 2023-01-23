@@ -7,10 +7,13 @@
       "jasmine"
     ]
   },
+<<<<<<< HEAD
   "files": [
     "src/test.ts",
     "src/polyfills.ts"
   ],
+=======
+>>>>>>> 03d3c6cebaaaebc1e5d17ea01bb0a63e0349c599
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts"

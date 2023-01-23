@@ -1,6 +1,10 @@
 # ListaDeTarefas
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+=======
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
+>>>>>>> 03d3c6cebaaaebc1e5d17ea01bb0a63e0349c599
 
 ## Development server
 
