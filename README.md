@@ -1,6 +1,14 @@
 # ListaDeTarefas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
+Projeto criado para acompanhar a Lista de Tarefas a realizar.
+
+Deve permitir inserir tarefas a realizar, bem como altera-las e exclui-las.
+
+Deve evidenciar as próximas tarefas a realizar e não exibir as que já foram concluídas.
+
+Deve manter um histórico das tarefas já realizadas.
+
+Deve permitir realizar um filtro para localizar tarefas por uma determinada condição.
 
 ## Development server
 
