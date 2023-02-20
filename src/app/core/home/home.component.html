@@ -1,0 +1,28 @@
+<div class="po-wrapper">
+    <po-toolbar
+      p-title="Lista de tarefas">
+    </po-toolbar>
+  
+    <po-menu
+      p-logo=".\assets\CapeliCorp.png"
+      [p-menus]="menus"
+      [p-filter]="filter"
+      [p-service]="menuFilter"
+      p-short-logo=".\assets\CC.png">
+    </po-menu>  
+  
+    <po-page-default
+      [p-title]="menuItemSelected"
+      [p-actions]="actions"
+      [p-breadcrumb]="breadcrumb">
+  
+      <div class="po-row">
+  
+        <app-tasks *ngIf="menuItemSelected == 'Lista de tarefas'"></app-tasks>
+        <app-history *ngIf="menuItemSelected == 'Histórico'"></app-history>
+        <app-categories *ngIf="menuItemSelected == 'Categorias'"></app-categories>
+  
+      </div>
+  
+    </po-page-default>
+  </div>

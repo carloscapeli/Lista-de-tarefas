@@ -1,0 +1,7 @@
+<po-widget
+  *ngFor="let task of tasks"
+  class="po-md-6 po-lg-4 po-mb-2"
+  [p-title]="task.executionDate">
+  <div class="po-font-subtitle po-text-center">{{task.title}}</div>
+  <div class="po-text-center sample-widget-text-subtitle">{{task.description}}</div>
+</po-widget>

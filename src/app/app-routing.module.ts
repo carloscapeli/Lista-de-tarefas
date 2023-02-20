@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
-import { AuthGuard } from './login/auth/auth.guard';
-import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './core/home/home.component';
+import { AuthGuard } from './core/auth/auth.guard';
+import { LoginComponent } from './features/login/login.component';
+import { HistoryComponent } from './features/history/history.component';
+import { CategoriesComponent } from './features/categories/categories.component';
 
 const routes: Routes = [
   {
@@ -13,6 +15,16 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'history',
+    component: HistoryComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'categories',
+    component: CategoriesComponent,
     canActivate: [AuthGuard]
   },
   {
